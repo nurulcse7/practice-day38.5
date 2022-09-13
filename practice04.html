@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 04</title>
+    <style>
+        body{
+            margin: 50px;
+            padding: 20px;
+        }
+
+        #container{
+            background-color: black;
+            border-radius: 15px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        input{
+            padding: 15px;
+        }
+        button {
+            background-color: orangered;
+            color: yellow;
+            padding: 15px;
+            border: none;
+            border-radius: 20px; 
+            margin-left: 5px;
+        }
+        #reset-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <h2 style="text-align: center; color: white; padding: 50px;">Please contact me</h2>
+        <div>
+            <p style="color: rgb(10, 187, 241);">Name</p>
+            <input type="text" placeholder="JS">
+            <button>Delete Name</button>
+            <button>Send Name</button>
+        </div>
+        
+        <div>
+            <p style="color: rgb(10, 187, 241);">Email</p>
+            <input type="email" name="" id="" placeholder="example@gmail.com">
+            <button>Delete Email</button>
+            <button>Send Email</button>
+        </div>
+        <div>
+            <p style="color: rgb(10, 187, 241);">Message</p>
+            <input type="text" name="" id="" placeholder="This project was fun!">
+            <button>Delete Message</button>
+            <button>Send Message</button>
+        </div>
+
+        <div id="reset-btn">
+            <!-- <button style="background-color: rgb(195, 74, 8); color: black; font-size: large;">Send</button> -->
+            <button style="background-color: yellow; color: black; font-size: large;">Reset</button>
+        </div>
+
+    </section>
+
+    
+</body>
+</html>

@@ -21,7 +21,9 @@ document.getElementById('increase-value').addEventListener('click', function(){
     const newIncreaseNumber = previousIncreaseValue + 1;
     increaseField.innerText = newIncreaseNumber;
     console.log(newIncreaseNumber)
-    localStorage.setItem()
+    localStorage.setItem('number', newIncreaseNumber)
 })
 
-// need help 4 and 5
+
+
+
