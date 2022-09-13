@@ -13,6 +13,7 @@ Step-5: If you click on the "Reset" button, the name key and value will be clear
 document.getElementById('send-name').addEventListener('click', function(){
     const nameField = document.getElementById('name-field');
     const nameValue = nameField.value;
+    nameField.value = '',
     console.log(nameValue)
 
     localStorage.setItem('name', nameValue)
@@ -25,6 +26,7 @@ document.getElementById('delete-name').addEventListener('click', function(){
 document.getElementById('send-email').addEventListener('click', function(){
     const emailField = document.getElementById('email-field');
     const emailValue = emailField.value;
+    emailField.value = '',
     console.log(emailValue)
 
     localStorage.setItem('email', emailValue)
@@ -37,6 +39,7 @@ document.getElementById('delete-email').addEventListener('click', function(){
 document.getElementById('send-message').addEventListener('click', function(){
     const messageField = document.getElementById('message-field');
     const messageValue = messageField.value;
+    messageField.value = '',
     console.log(messageValue)
 
     localStorage.setItem('message', messageValue)

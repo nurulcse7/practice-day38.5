@@ -9,22 +9,56 @@ Practice task for local storage ("Level -1")
 */
 
 // 01.
-localStorage.clear()
+// localStorage.clear()
 
 // 02. 
-localStorage.setItem('name', 'Nurul Islam')
+// localStorage.setItem('name', 'Nurul Islam')
 
-// 03. 
-localStorage.setItem('age', 30)
+// // 03. 
+// localStorage.setItem('age', 30)
 
-// 04. 
-localStorage.getItem('name') // 'Nurul Islam'
-localStorage.getItem('age')  // '32'
+// // 04. 
+// localStorage.getItem('name') // 'Nurul Islam'
+// localStorage.getItem('age')  // '32'
 
-// 05. 
-localStorage.removeItem('name')
-localStorage.removeItem('age')
+// // 05. 
+// localStorage.removeItem('name')
+// localStorage.removeItem('age')
+
+
 
 // 06. 
+const getInputValueById = id => {
+    const inputField = document.getElementById(id);
+    const inputValue = inputField.value;
+    inputField.value = '';
+    return inputValue;
+}
 
-// need help 06
+const addName = () =>{
+    const firstName = getInputValueById('first-name-field');
+    const lastName = getInputValueById('second-name-field');
+    // console.log(firstName, lastName);
+    // // set to local storage(simple way)
+    // localStorage.setItem(firstName, lastName)
+    // set to local storage(like a object)
+    saveItemToLocalStorage(firstName, lastName)
+}
+
+const getFullNameFromLocalStorage = () => {
+    let savedName = localStorage.getItem('name');
+    let name = {};
+    if(savedName){
+        name = JSON.parse(savedName)
+    }
+    return name;
+}
+
+const saveItemToLocalStorage = (firstName, lastName) =>{
+    const name = getFullNameFromLocalStorage();
+    // add firstName to the object as property
+    name[firstName] = lastName
+    const nameStringified = JSON.stringify(name)
+    // save to local storage
+    localStorage.setItem('name', nameStringified)
+}

@@ -62,9 +62,10 @@ Step-4: If you click on the "Delete Name" button, the name key and value will be
 Step-5: If you click on the "Reset" button, the name key and value will be cleared from the local storage.
 
 Practice task for local storage ("Level -4")
-Step-1: All task are same as privious.
-Step-2: One extra theing is added here. "Send" button.
-Step-3: If you click on the "Send" button, all of the inputs (Name, Email, Message) will be set on the localStorage at a time.
+Step-1: All task are same as previous.
+Step-2: One extra thing is added here. "Send" button.
+Step-3: If you click on the "Send" button, all of the inputs (Name, Email, Message) will be set on the 
+        localStorage at a time.
 
 
 ------------
