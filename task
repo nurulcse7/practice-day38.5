@@ -1,34 +1,74 @@
 Module 38.5 Browser API Practice
 ব্রাউজার এবং জাভাস্ক্রিপ্ট রিলেটেড জিনিসগুলা প্রাকটিস করে ফেলো।  
 
+01. Some middle console log will be logged after 3.5 seconds
 ১. setTimeout এর ভিতরে একটা কিছু কনসোল লগ করবে যেটা সাড়ে তিন সেকেন্ড পরে আউটপুট দেখাবে। ,
 
+02. Take a number from users, using prompt and add 200 or 250 to that number
 ২. prompt দিয়ে ইউজারের কাছ থেকে একটা সংখ্যা নাও। সেটার সাথে ২০০যোগ করো। যোগ করতে গেলে parse করা লাগলে সেটা করো। 
    তারপর সেই রেজাল্টকে alert দিয়ে আউটপুট দেখাও 
 
 ৩. ব্রাউজারে একটা confirm করে জিজ্ঞেস করো তুমি কি তোমার ওয়েবসাইট এর লোকেশন দেখতে চাও। 
    যদি বলে দেখতে চাই তাহলে সেই ওয়েবসাইট এর লোকেশন এর href জিনিসটা কনসোল লগ করে দেখাও 
 
+03. What is cookies, write in english at least 5-7 lines
 ৪. Cookies কি জিনিস। এইটা দিয়ে কি করা হয়। সেটা ইংরেজিতে ৫ থেকে ৭ লাইনের মধ্যে লিখে ফেলো। 
 
+04. Write at least 3 difference between local storage vs session storage
 ৫. local storage আর session storage এর মধ্যে তিনটা পার্থক্য লিখে ফেলো। ইংরেজিতে। (নিজের মতো করে লিখবে )
+
+05. Difference between cookies, localStorage and sessionStorage
 
 [হোম ওয়ার্ক] 
 
 ৬. জাভাস্ক্রিপ্ট এর কোড কিভাবে ব্রাউজারের মধ্যে রান করে। দরকার হলে গুগল বা ইউটিউবে সার্চ দিয়ে একটু ভালো করে দেখে রাখো। 
+
+07. Tell me four things that are asynchronous in JavaScript
 ৭. জাভাস্ক্রিপ্ট এর কোন কোন জিনিস asynchronous সেটার একটা লিষ্ট গুগলে সার্চ দিয়ে বের করে ফেলো। 
     এবং এই asynchronous বলতে কি বুঝায় সেটাও দেখে রাখো। 
 
+06. What is event loop in JavaScript. How sychronus and asynchronous code works in JavaScript
 ৮. event loop লুপ কি জিনিস। এই রিলেটেড পুরা জিনিসটা আজকে অনেকেই বুঝবে না। তাও আরেকবার দেখে রাখবে। 
 
 
 [ চ্যালেঞ্জ ]
 ৯. ভিডিওতে চারটা লেভেল এর লোকাল স্টোরেজ রিলেটেড কাজ দেয়া হয়েছে। সেগুলা একটু ভালো করে করো। 
 
+Practice task for local storage ("Level -1")
+01. Clear your local storage;
+02. Set a local storage item. key: name, value: Shakib Khan;
+03. Set a local storage item. key: age, value: 40;
+04. Get the local storage item you have set.
+05. Remove the local storage key 'name' & key 'age'
+06. Set a object as local storage item. The object is {firstName: 'Abraham', lastName: 'Linkon'}
+
+Practice task for local storage ("Level -2")
+Step-1: HTML file will have a p tag and a button.
+Step-2: The p tag will show "the count" which is initially 0. (initially the value in local storage is 0)
+Step-3: Every time, after cliking the button the number will be increased by 1. and the result will be show in the p tag.
+Step-4: With every click on the button, the result will be stored in the local storage also.
+Step-5: Now the result is stored in local storage. So, if you reload the page or close the tab and open again,
+        the result of "the count" is not 0. Rather it will show the value from local storage without reset.
+
+Practice task for local storage ("Level -3")
+Step-1: Create a form like the pictrue.
+Step-2: Take the inputs. 
+Step-3: If you click on the "Send Name" button, the input will be set on the localStorage like pictrue. 
+        Do the same for other 'send buttons'. 
+Step-4: If you click on the "Delete Name" button, the name key and value will be cleared from the local storage.
+        Do the same for other 'send buttons'.
+Step-5: If you click on the "Reset" button, the name key and value will be cleared from the local storage.
+
+Practice task for local storage ("Level -4")
+Step-1: All task are same as privious.
+Step-2: One extra theing is added here. "Send" button.
+Step-3: If you click on the "Send" button, all of the inputs (Name, Email, Message) will be set on the localStorage at a time.
+
 
 ------------
 [মাস্ট করতেই হবে]
-১০. stackoverflow নামে একটা ওয়েবসাইট আছে। সেখানে গিয়ে একাউণ্ট খুলবে। এবং মিনিমাম ৩০ মিনিট সেখানে স্পেন্ড করবে। দেখবে কিভাবে কি উত্তর দেয়। 
+১০. stackoverflow নামে একটা ওয়েবসাইট আছে। সেখানে গিয়ে একাউণ্ট খুলবে। এবং মিনিমাম ৩০ মিনিট সেখানে স্পেন্ড করবে। 
+    দেখবে কিভাবে কি উত্তর দেয়। 
 
 Interview Questions:
 01.	What is the difference between an alert box and a confirmation box?
