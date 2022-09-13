@@ -18,13 +18,15 @@
 
    <script>
       const askUser = () =>{
-         const agreement = confirm('Do you want to see the location of your website?')
+         const agreement = confirm('Do you want to see the location of your website?');
         //  console.log(agreement);
          if(agreement === true){
-           console.log('https://www.programming-hero.com/')
+               const webLocation = location.href;
+               console.log(webLocation);
+           
          }
          else{
-             alert('Thanks for the feedback')
+             alert('Thanks for the feedback');
          }
      }
      
