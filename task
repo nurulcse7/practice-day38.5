@@ -15,13 +15,15 @@ Module 38.5 Browser API Practice
 ৪. Cookies কি জিনিস। এইটা দিয়ে কি করা হয়। সেটা ইংরেজিতে ৫ থেকে ৭ লাইনের মধ্যে লিখে ফেলো। 
 
 04. Write at least 3 difference between local storage vs session storage
-৫. local storage আর session storage এর মধ্যে তিনটা পার্থক্য লিখে ফেলো। ইংরেজিতে। (নিজের মতো করে লিখবে )
 
 05. Difference between cookies, localStorage and sessionStorage
+৫. local storage আর session storage এর মধ্যে তিনটা পার্থক্য লিখে ফেলো। ইংরেজিতে। (নিজের মতো করে লিখবে )
+
 
 [হোম ওয়ার্ক] 
 
 ৬. জাভাস্ক্রিপ্ট এর কোড কিভাবে ব্রাউজারের মধ্যে রান করে। দরকার হলে গুগল বা ইউটিউবে সার্চ দিয়ে একটু ভালো করে দেখে রাখো। 
+   How JavaScript code runs in the browser?
 
 07. Tell me four things that are asynchronous in JavaScript
 ৭. জাভাস্ক্রিপ্ট এর কোন কোন জিনিস asynchronous সেটার একটা লিষ্ট গুগলে সার্চ দিয়ে বের করে ফেলো। 
@@ -77,3 +79,7 @@ Interview Questions:
 04.	What should you use? cookie or local storage or session storage?
 05.	Tell me 2 differences between DOM vs BOM
 06.	Cadn you discuss the types of browser API?
+
+Extra by me:
+01.	How does the INTERNET work? https://www.youtube.com/watch?v=x3c1ih2NJEg 
+02.	How does a web browser work? https://www.mozilla.org/en-US/firefox/browsers/what-is-a-browser/#:~:text=When%20the%20web%20browser%20fetches,and%20experience%20on%20the%20internet. 

@@ -1,0 +1,33 @@
+<!-- 02. Take a number from users, using prompt and add 200 or 250 to that number
+২. prompt দিয়ে ইউজারের কাছ থেকে একটা সংখ্যা নাও। সেটার সাথে ২০০যোগ করো।
+  যোগ করতে গেলে parse করা লাগলে সেটা করো। তারপর সেই রেজাল্টকে alert দিয়ে আউটপুট দেখাও  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt</title>
+</head>
+<body style="margin: 100px;">
+    <h1>Answer to the question no 02</h1>
+
+    <button onclick="getUserNumber()">Get Number</button>
+
+
+    <script>
+      const getUserNumber = () =>{
+         const money = prompt('Give us your amount.')
+         // console.log(money);
+         const moneyString = parseInt(money);
+         const totalAmount = moneyString + 200;
+         // console.log(totalAmount)
+         alert(`Your total amount ${totalAmount}`)
+      }
+    </script> 
+    
+</body>
+</html>
+
